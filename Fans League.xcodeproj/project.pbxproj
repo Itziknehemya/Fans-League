@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C62CD60BB4808CD66D73DA5 /* Pods_Fans_League.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6D64B2618A00BC73CC6449 /* Pods_Fans_League.framework */; };
+		6C9EE51420F5218300FE90FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE51320F5218300FE90FE /* AppDelegate.swift */; };
+		6C9EE51620F5218300FE90FE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE51520F5218300FE90FE /* MainViewController.swift */; };
+		6C9EE51920F5218300FE90FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9EE51720F5218300FE90FE /* Main.storyboard */; };
+		6C9EE51B20F5218300FE90FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9EE51A20F5218300FE90FE /* Assets.xcassets */; };
+		6C9EE51E20F5218300FE90FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9EE51C20F5218300FE90FE /* LaunchScreen.storyboard */; };
+		6C9EE52620F5282B00FE90FE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE52520F5282B00FE90FE /* MapViewController.swift */; };
+		6C9EE52820F52AA000FE90FE /* FLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE52720F52AA000FE90FE /* FLViewController.swift */; };
+		6C9EE52D20F533FA00FE90FE /* FanColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE52C20F533FA00FE90FE /* FanColor.swift */; };
+		6C9EE53120F535FD00FE90FE /* UserDefaultsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE53020F535FD00FE90FE /* UserDefaultsExt.swift */; };
+		6C9EE53320F55B8A00FE90FE /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE53220F55B8A00FE90FE /* UIColorExt.swift */; };
+		6C9EE53520F5656F00FE90FE /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE53420F5656F00FE90FE /* UIViewExt.swift */; };
+		6C9EE53720F6175100FE90FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9EE53620F6175100FE90FE /* MapKit.framework */; };
+		6C9EE53920F6213B00FE90FE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE53820F6213B00FE90FE /* LocationManager.swift */; };
+		6C9EE53D20F65CFD00FE90FE /* UIAlertControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE53C20F65CFD00FE90FE /* UIAlertControllerExt.swift */; };
+		6C9EE53F20F72DC100FE90FE /* ConfettiEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE53E20F72DC100FE90FE /* ConfettiEffects.swift */; };
+		6C9EE54120F7325600FE90FE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE54020F7325600FE90FE /* Utils.swift */; };
+		6C9EE54A20F73E6A00FE90FE /* Sports.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C9EE54920F73E6A00FE90FE /* Sports.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E06742C886DF58A47B8D03E /* Pods-Fans League.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fans League.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fans League/Pods-Fans League.debug.xcconfig"; sourceTree = "<group>"; };
+		6C9EE51020F5218300FE90FE /* Fans League.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fans League.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9EE51320F5218300FE90FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C9EE51520F5218300FE90FE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6C9EE51820F5218300FE90FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C9EE51A20F5218300FE90FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C9EE51D20F5218300FE90FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C9EE51F20F5218300FE90FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9EE52520F5282B00FE90FE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6C9EE52720F52AA000FE90FE /* FLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLViewController.swift; sourceTree = "<group>"; };
+		6C9EE52C20F533FA00FE90FE /* FanColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanColor.swift; sourceTree = "<group>"; };
+		6C9EE53020F535FD00FE90FE /* UserDefaultsExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExt.swift; sourceTree = "<group>"; };
+		6C9EE53220F55B8A00FE90FE /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		6C9EE53420F5656F00FE90FE /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		6C9EE53620F6175100FE90FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6C9EE53820F6213B00FE90FE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6C9EE53C20F65CFD00FE90FE /* UIAlertControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExt.swift; sourceTree = "<group>"; };
+		6C9EE53E20F72DC100FE90FE /* ConfettiEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiEffects.swift; sourceTree = "<group>"; };
+		6C9EE54020F7325600FE90FE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6C9EE54920F73E6A00FE90FE /* Sports.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sports.mp3; sourceTree = "<group>"; };
+		8A6D64B2618A00BC73CC6449 /* Pods_Fans_League.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fans_League.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF40501C3673C1CE6C81E135 /* Pods-Fans League.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fans League.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fans League/Pods-Fans League.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C9EE50D20F5218300FE90FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9EE53720F6175100FE90FE /* MapKit.framework in Frameworks */,
+				5C62CD60BB4808CD66D73DA5 /* Pods_Fans_League.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51ED21B4F7DFD0209EB2E912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EE53620F6175100FE90FE /* MapKit.framework */,
+				8A6D64B2618A00BC73CC6449 /* Pods_Fans_League.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C9EE50720F5218300FE90FE = {
+			isa = PBXGroup;
+			children = (
+				6C9EE51220F5218300FE90FE /* Fans League */,
+				6C9EE51120F5218300FE90FE /* Products */,
+				E72FCEDEB7B50C26E17353FC /* Pods */,
+				51ED21B4F7DFD0209EB2E912 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C9EE51120F5218300FE90FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EE51020F5218300FE90FE /* Fans League.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C9EE51220F5218300FE90FE /* Fans League */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EE52920F5338200FE90FE /* UI */,
+				6C9EE52A20F533A100FE90FE /* Logic */,
+				6C9EE52E20F535D700FE90FE /* Utilities */,
+				6C9EE52B20F533C100FE90FE /* Resources */,
+				6C9EE51F20F5218300FE90FE /* Info.plist */,
+			);
+			path = "Fans League";
+			sourceTree = "<group>";
+		};
+		6C9EE52920F5338200FE90FE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EE52520F5282B00FE90FE /* MapViewController.swift */,
+				6C9EE51520F5218300FE90FE /* MainViewController.swift */,
+				6C9EE52720F52AA000FE90FE /* FLViewController.swift */,
+				6C9EE51720F5218300FE90FE /* Main.storyboard */,
+				6C9EE51C20F5218300FE90FE /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6C9EE52A20F533A100FE90FE /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EE51320F5218300FE90FE /* AppDelegate.swift */,
+				6C9EE52C20F533FA00FE90FE /* FanColor.swift */,
+				6C9EE53820F6213B00FE90FE /* LocationManager.swift */,
+				6C9EE53E20F72DC100FE90FE /* ConfettiEffects.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		6C9EE52B20F533C100FE90FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EE54920F73E6A00FE90FE /* Sports.mp3 */,
+				6C9EE51A20F5218300FE90FE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C9EE52E20F535D700FE90FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EE54020F7325600FE90FE /* Utils.swift */,
+				6C9EE52F20F535E500FE90FE /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6C9EE52F20F535E500FE90FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6C9EE53020F535FD00FE90FE /* UserDefaultsExt.swift */,
+				6C9EE53220F55B8A00FE90FE /* UIColorExt.swift */,
+				6C9EE53420F5656F00FE90FE /* UIViewExt.swift */,
+				6C9EE53C20F65CFD00FE90FE /* UIAlertControllerExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E72FCEDEB7B50C26E17353FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E06742C886DF58A47B8D03E /* Pods-Fans League.debug.xcconfig */,
+				BF40501C3673C1CE6C81E135 /* Pods-Fans League.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C9EE50F20F5218300FE90FE /* Fans League */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9EE52220F5218300FE90FE /* Build configuration list for PBXNativeTarget "Fans League" */;
+			buildPhases = (
+				26B32EEED63EA6400236052F /* [CP] Check Pods Manifest.lock */,
+				6C9EE50C20F5218300FE90FE /* Sources */,
+				6C9EE50D20F5218300FE90FE /* Frameworks */,
+				6C9EE50E20F5218300FE90FE /* Resources */,
+				A9B6E384D9BF9F53E6A27295 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fans League";
+			productName = "Fans League";
+			productReference = 6C9EE51020F5218300FE90FE /* Fans League.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C9EE50820F5218300FE90FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Nehemya;
+				TargetAttributes = {
+					6C9EE50F20F5218300FE90FE = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6C9EE50B20F5218300FE90FE /* Build configuration list for PBXProject "Fans League" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C9EE50720F5218300FE90FE;
+			productRefGroup = 6C9EE51120F5218300FE90FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C9EE50F20F5218300FE90FE /* Fans League */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C9EE50E20F5218300FE90FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9EE51E20F5218300FE90FE /* LaunchScreen.storyboard in Resources */,
+				6C9EE51B20F5218300FE90FE /* Assets.xcassets in Resources */,
+				6C9EE51920F5218300FE90FE /* Main.storyboard in Resources */,
+				6C9EE54A20F73E6A00FE90FE /* Sports.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26B32EEED63EA6400236052F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fans League-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B6E384D9BF9F53E6A27295 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fans League/Pods-Fans League-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fans League/Pods-Fans League-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C9EE50C20F5218300FE90FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9EE53120F535FD00FE90FE /* UserDefaultsExt.swift in Sources */,
+				6C9EE51620F5218300FE90FE /* MainViewController.swift in Sources */,
+				6C9EE52620F5282B00FE90FE /* MapViewController.swift in Sources */,
+				6C9EE52820F52AA000FE90FE /* FLViewController.swift in Sources */,
+				6C9EE53520F5656F00FE90FE /* UIViewExt.swift in Sources */,
+				6C9EE53320F55B8A00FE90FE /* UIColorExt.swift in Sources */,
+				6C9EE51420F5218300FE90FE /* AppDelegate.swift in Sources */,
+				6C9EE52D20F533FA00FE90FE /* FanColor.swift in Sources */,
+				6C9EE53F20F72DC100FE90FE /* ConfettiEffects.swift in Sources */,
+				6C9EE53D20F65CFD00FE90FE /* UIAlertControllerExt.swift in Sources */,
+				6C9EE53920F6213B00FE90FE /* LocationManager.swift in Sources */,
+				6C9EE54120F7325600FE90FE /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C9EE51720F5218300FE90FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C9EE51820F5218300FE90FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C9EE51C20F5218300FE90FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C9EE51D20F5218300FE90FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C9EE52020F5218300FE90FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C9EE52120F5218300FE90FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C9EE52320F5218300FE90FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E06742C886DF58A47B8D03E /* Pods-Fans League.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4Z94TP35H;
+				INFOPLIST_FILE = "Fans League/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nehemya.Fans-League";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C9EE52420F5218300FE90FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF40501C3673C1CE6C81E135 /* Pods-Fans League.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4Z94TP35H;
+				INFOPLIST_FILE = "Fans League/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nehemya.Fans-League";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C9EE50B20F5218300FE90FE /* Build configuration list for PBXProject "Fans League" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9EE52020F5218300FE90FE /* Debug */,
+				6C9EE52120F5218300FE90FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9EE52220F5218300FE90FE /* Build configuration list for PBXNativeTarget "Fans League" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9EE52320F5218300FE90FE /* Debug */,
+				6C9EE52420F5218300FE90FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C9EE50820F5218300FE90FE /* Project object */;
+}
