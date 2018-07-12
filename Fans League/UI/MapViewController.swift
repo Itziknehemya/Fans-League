@@ -47,10 +47,6 @@ class MapViewController: FLViewController {
         configDistanceLabelAndPtCount()
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-    }
-    
     func configGoogleMaps() {
         GMSServices.provideAPIKey(GOOGLE_API_KEY)
 
