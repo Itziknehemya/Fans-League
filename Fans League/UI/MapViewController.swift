@@ -38,13 +38,19 @@ class MapViewController: FLViewController {
         configNotYetButton()
         configCarImageView()
         configPointsLabel()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        configGoogleMaps()
+        runBlockAfterDelay(afterDelay: 0) {
+            self.configGoogleMaps()
+        }
         configDistanceLabelAndPtCount()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        configNavigationBar(navigationBarTitle: "I'm on my way!", leftBarButtonItem: leftBackBarButtonItem, isPopGestureEnabled: true)
     }
     
     func configGoogleMaps() {
@@ -135,11 +141,6 @@ class MapViewController: FLViewController {
         notYetButton.setTitleColor(fanColor, for: .normal)
         notYetButton.setBorder()
     }
-
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        configNavigationBar(navigationBarTitle: "I'm on my way!", leftBarButtonItem: leftBackBarButtonItem, isPopGestureEnabled: true)
-    }
     
     @IBAction func letsGoButtonPressed(_ sender: UIButton) {
         showAlertController()
@@ -174,7 +175,7 @@ class MapViewController: FLViewController {
             let url = "comgooglemaps://?saddr=&daddr=\(location.latitude),\(location.longitude)&directionsmode=driving"
             UIApplication.shared.open(URL(string: url)!, options: [:], completionHandler: nil)
         } else {
-            print("Can't use comgooglemaps://")
+            UIApplication.shared.open(URL(string: "https://itunes.apple.com/il/app/google-maps-gps-navigation/id585027354?mt=8")!, options: [:], completionHandler: nil)
         }
     }
     
